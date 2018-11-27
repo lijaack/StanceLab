@@ -1,0 +1,160 @@
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; }
+
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+.carousel-logo{
+    position: relative;
+    left:8rem;
+}
+/* Navbar animation */
+.nav-logo{
+    width:30%;
+}
+.navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link{
+    background-color: rgb(255, 0, 0) !important;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.top-nav-collapse {
+  background-color: #1C2331; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1C2331; }
+
+.quoteBtn{
+    text-transform: uppercase;
+    color:#F9F9F9;
+
+
+}
+
+.quoteBtn:hover{
+    background-color:#BF0920;
+    color:#F9F9F9;
+
+}
+
+
+.d-none{
+    display:block !important;
+}
+
+
+
+.fa-wrench,
+.fa-car,
+.fa-line-chart,
+.fa-dharmachakra,
+.fa-spray-can,
+.fa-palette{
+   color: #4285f4!important;
+    font-size:1.5rem;
+}
+
+
+.feature-title{
+    font-family: 'Bitter', sans-serif;
+    font-weight: bold;
+}
+
+
+.hh-text{
+
+    position: relative;
+    top: 1rem;
+
+
+}
+
+strong
+{
+        text-transform: uppercase;
+}
+
+.grey-text{
+     font-family: 'Ledger', serif;
+    color:black !important;
+}
+
+
+.showroom-img{
+   position: relative;
+    top: 7rem;
+}
+
+#about{
+  padding-top: 100px;
+}
+
+#services{
+  padding-top: 50px;
+}
+
+#location{
+  padding-top:50px;
+}
+#partners{
+  padding-top:50px;
+}
+
+
+
+.request-quote{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size:3rem;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+.fa-map-marker,
+.fa-phone,
+.fa-envelope{
+    color: #4285f4!important;
+}
+
+.fa-facebook:hover{
+    color: #3b5998;
+}
+.fa-instagram:hover{
+    color:#c32aa3;
+
+
+}
+.fa-yelp:hover{
+    color:#d32323;
+}
+.info{
+    font-weight: bolder;
+    font-family: 'Ledger', serif;
+    
+}
+
+
+
+
+
+
+
+
+
+
