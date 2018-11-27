@@ -1,7 +1,7 @@
 # StanceLab
-A landing page built for Stance Lab
-![Home](img/sample/home.png)
-![Quote](img/sample/quote.png)
+A landing page built for Stance Lab  
+![Home](img/sample/home.png)  
+![Quote](img/sample/quote.png)  
 
 ## Built With
 
